@@ -1,0 +1,12 @@
+{
+  "issueKeyTestcaseValues": {
+    "82e4ecee-4b4c-422d-8888-505c1607c6c8": "d5399466-d33d-497d-d940-08d8349274f3",
+    "93cecc4d-9ed2-438d-879d-37eead1caa43": "1816894c-cde7-4d23-d941-08d8349274f3",
+    "b618c438-371f-4f69-854f-c0607dfd120d": "13229b50-2ee4-43d1-280a-08d8330ca498",
+    "d4937321-9537-4d8b-87fa-81d08d51692d": "7a447635-e51c-4e19-3ffd-08d83522256b",
+    "5ca45d5e-0553-4267-8ddc-47998f592fb6": "2e15c2ee-9132-41d8-134a-08d837ba4142",
+    "be5275f3-1328-45e1-816e-3d6b2c90933c": "0cff6a89-2743-49fa-134b-08d837ba4142"
+  },
+  "testManagerBasePath": "https://tm-demo.uipath.com/",
+  "testManagerInstanceType": "Server"
+}
