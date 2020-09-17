@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1530,3286</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1530,3327</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Create_new_bank_loan_GDIT_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -59,7 +59,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Create_new_bank_loan_GDIT" sap:VirtualizedContainerService.HintSize="772,3121" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Create_new_bank_loan_GDIT" sap:VirtualizedContainerService.HintSize="772,3122" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -87,19 +87,19 @@
         </ui:Target>
       </ui:Click.Target>
     </ui:Click>
-    <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" DisplayName="Use Browser IE: UiBank" sap:VirtualizedContainerService.HintSize="730,2883" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate">
+    <uix:NApplicationCard CloseMode="{x:Null}" OpenMode="{x:Null}" DisplayName="Use Browser IE: UiBank" sap:VirtualizedContainerService.HintSize="730,2884" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="696,2667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence sap:VirtualizedContainerService.HintSize="696,2668" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,2573" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,2574" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:Boolean" Name="exists" />
               </Sequence.Variables>
@@ -206,7 +206,7 @@
                       </uix:NGetText.Target>
                       <uix:NGetText.Text>
                         <OutArgument x:TypeArguments="x:Object">
-                          <VariableReference x:TypeArguments="x:Object">
+                          <VariableReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="VariableReference`1_1">
                             <VariableReference.Variable>
                               <Variable x:TypeArguments="x:Object" x:Name="__ReferenceID0" Name="Text" />
                             </VariableReference.Variable>
@@ -221,7 +221,7 @@
                     <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
                       <uta:ArgumentsBridge.Input>
                         <InArgument x:TypeArguments="x:Object">
-                          <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                          <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" sap2010:WorkflowViewState.IdRef="VariableValue`1_1" />
                         </InArgument>
                       </uta:ArgumentsBridge.Input>
                     </uta:ArgumentsBridge>
