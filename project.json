@@ -40,12 +40,6 @@
         "editingStatus": "InProgress",
         "testCaseId": "bec2bafb-a6ed-47f1-bb06-098ddc1f814d",
         "fileName": "TestCase.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "5e0ca400-9d5d-40a7-8f3e-cc2f4c929439",
-        "dataVariationFilePath": ".variations\\Loans 10 Rows of Data_data.json",
-        "fileName": "Test Cases\\Create new bank loan GDIT.xaml"
       }
     ]
   },
