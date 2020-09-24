@@ -40,6 +40,11 @@
         "editingStatus": "InProgress",
         "testCaseId": "bec2bafb-a6ed-47f1-bb06-098ddc1f814d",
         "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "aad7244e-553b-434e-b484-cec3c2c85185",
+        "fileName": "Test Cases\\Create bank loan.xaml"
       }
     ]
   },
